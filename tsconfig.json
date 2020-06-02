@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": ["es6", "esnext"],
+    "declaration": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true
+  },
+  "exclude": [
+    "lib",
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "packages/**/node_modules",
+    "packages/**/lib",
+    "apps/**/node_modules",
+    "apps/**/lib"
+  ]
+}

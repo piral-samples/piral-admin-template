@@ -1,0 +1,52 @@
+{
+  "name": "pilet-status",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "@dbeining/react-atom": "latest",
+    "@libre/atom": "latest",
+    "history": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "latest",
+    "react-router-dom": "latest",
+    "tslib": "1.13.0",
+    "path-to-regexp": "1.8.0",
+    "portal": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "portal": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "portal"
+  }
+}
