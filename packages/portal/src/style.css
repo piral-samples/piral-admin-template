@@ -1,0 +1,37 @@
+@import url(../../../node_modules/tabler-react/dist/Tabler.css);
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pi-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.loader {
+  height: 2.0rem;
+  width: 2.0rem;
+}
+
+.loader:before, .loader:after {
+  width: 2.0rem;
+  height: 2.0rem;
+  margin: -1rem 0 0 -1rem;
+}
+
+

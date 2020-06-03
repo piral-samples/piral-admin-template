@@ -14,6 +14,7 @@
     "start": "piral debug",
     "build": "piral build"
   },
+  "main": "./src/index.tsx",
   "typings": "./src/types.ts",
   "app": "./src/index.html",
   "pilets": {

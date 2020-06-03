@@ -12,6 +12,7 @@
     "@types/react-router": "latest",
     "@types/react-router-dom": "latest",
     "@types/node": "latest",
+    "tabler-react": "^1.30.1",
     "typescript": "latest",
     "@dbeining/react-atom": "latest",
     "@libre/atom": "latest",
