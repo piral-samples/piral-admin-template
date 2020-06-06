@@ -6,8 +6,8 @@
     "piral"
   ],
   "dependencies": {
-    "piral": "^0.11.5",
-    "piral-auth": "^0.11.5",
+    "piral": "next",
+    "piral-auth": "next",
     "tabler-react": "^1.30.1"
   },
   "scripts": {

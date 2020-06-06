@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "watch:all": "pilet debug 'packages/pilet-*/src/index.tsx'",
     "watch:portal": "piral debug packages/portal/src/index.html",
     "watch:pilet-messages": "pilet debug packages/pilet-messages/src/index.tsx",
     "watch:pilet-status": "pilet debug packages/pilet-status/src/index.tsx",
@@ -16,8 +17,8 @@
     "jest": "^25.0.0",
     "jest-cli": "^25.0.0",
     "lerna": "^3.13.0",
-    "piral-cli": "latest",
-    "piral-cli-parcel": "latest",
+    "piral-cli": "0.11.6-pre.1393",
+    "piral-cli-parcel": "0.11.6-pre.1393",
     "prettier": "^1.19.1",
     "ts-jest": "^25.0.0",
     "typescript": "^3.8.3"
