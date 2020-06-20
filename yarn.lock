@@ -3432,9 +3432,9 @@ detect-newline@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
 
-dets@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/dets/-/dets-0.5.5.tgz#785025951b98437092f7a3cd6dca933a85e78460"
+dets@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/dets/-/dets-0.6.0.tgz#82299a93a8269dddc4d40b49cad4a6061865da88"
   dependencies:
     yargs "^15.3.1"
 
@@ -5394,9 +5394,9 @@ kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
 
-kras@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/kras/-/kras-0.10.3.tgz#8c2303c63aa9c9ee19c78330f3340a38d8e023ec"
+kras@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/kras/-/kras-0.11.0.tgz#c6d0717bd1c8687671f11a2595c6ee9cf4981785"
   dependencies:
     yargs "^15.3.1"
 
@@ -6489,9 +6489,9 @@ parcel-plugin-codegen@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/parcel-plugin-codegen/-/parcel-plugin-codegen-0.5.0.tgz#3b7161ea7f21731d45bbd6df8efc4cf8a8038677"
 
-parcel-plugin-externals@^0.3.1:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-externals/-/parcel-plugin-externals-0.3.3.tgz#8f830fe1dae5b02df487be83e9f38cee45d195eb"
+parcel-plugin-externals@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-externals/-/parcel-plugin-externals-0.5.0.tgz#fa47c555b424e0243eaac3298c9506561f0be6e4"
 
 parcel-plugin-import-maps@^0.3.1:
   version "0.3.1"
@@ -6606,6 +6606,10 @@ path-to-regexp@1.8.0, path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
+path-to-regexp@latest:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.1.0.tgz#0b18f88b7a0ce0bfae6a25990c909ab86f512427"
+
 path-type@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -6664,88 +6668,88 @@ pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
-piral-auth@next:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-auth/-/piral-auth-0.11.6-pre.1391.tgz#8243f6ff079b86e864b5d3f18d7e673c7870b0bd"
+piral-auth@0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-auth/-/piral-auth-0.11.7-pre.1435.tgz#e63743c38f1e3c85b89fb204b40948a71a702759"
 
-piral-base@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-base/-/piral-base-0.11.6-pre.1391.tgz#f21d5d21f9ebbb1d2ef1de5814434344905c4e33"
+piral-base@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-base/-/piral-base-0.11.7-pre.1435.tgz#7505811be128784ed20b11f7c9318802745fd304"
   dependencies:
     tslib "^1.10.0"
 
-piral-cli-parcel@0.11.6-pre.1393:
-  version "0.11.6-pre.1393"
-  resolved "https://registry.yarnpkg.com/piral-cli-parcel/-/piral-cli-parcel-0.11.6-pre.1393.tgz#46c33b9701adcb246738835f2eb99817708cfb65"
+piral-cli-parcel@0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-cli-parcel/-/piral-cli-parcel-0.11.7-pre.1435.tgz#781147c5926cb26a16ebf10a31621423a836f6b8"
   dependencies:
     parcel-bundler "^1.12.4"
     parcel-plugin-at-alias "^0.2.0"
     parcel-plugin-codegen "^0.5.0"
-    parcel-plugin-externals "^0.3.1"
+    parcel-plugin-externals "^0.5.0"
     parcel-plugin-import-maps "^0.3.1"
 
-piral-cli@0.11.6-pre.1393:
-  version "0.11.6-pre.1393"
-  resolved "https://registry.yarnpkg.com/piral-cli/-/piral-cli-0.11.6-pre.1393.tgz#1235bcb1cd13819b657a51c63d410f2d4ecde969"
+piral-cli@0.11.7-pre.1435, piral-cli@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-cli/-/piral-cli-0.11.7-pre.1435.tgz#6909d7fdbc0afc5b114d4b67b7c8e68ffd9e07f5"
   dependencies:
     chalk "^2.4.2"
-    dets "^0.5.5"
+    dets "^0.6.0"
     ejs "^2.6.2"
-    kras "^0.10.3"
+    kras "^0.11.0"
     rimraf "^3.0.0"
     typescript "^3.8.3"
     yargs "^15.3.1"
 
-piral-core@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-core/-/piral-core-0.11.6-pre.1391.tgz#7b27de20691567f8c7236347ae7ad1aa64c39792"
+piral-core@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-core/-/piral-core-0.11.7-pre.1435.tgz#ccd117d7544fb1e446e7be2ffccd748a80930155"
   dependencies:
     "@dbeining/react-atom" "^4.0.0"
-    piral-base "^0.11.6-pre.1391"
+    piral-base "^0.11.7-pre.1435"
 
-piral-dashboard@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-dashboard/-/piral-dashboard-0.11.6-pre.1391.tgz#69a05637d4e9767a60df52253e41487535809dcd"
+piral-dashboard@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-dashboard/-/piral-dashboard-0.11.7-pre.1435.tgz#85796f9340eeacb6a984ec7dfc527801ac998716"
 
-piral-ext@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-ext/-/piral-ext-0.11.6-pre.1391.tgz#ab06d3b6b9b1acf4900bc7f45145a2de4b8714e5"
+piral-ext@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-ext/-/piral-ext-0.11.7-pre.1435.tgz#90f8cf5f1e8cf4847cedba66a0517fcb1887fe07"
   dependencies:
-    piral-dashboard "^0.11.6-pre.1391"
-    piral-feeds "^0.11.6-pre.1391"
-    piral-menu "^0.11.6-pre.1391"
-    piral-modals "^0.11.6-pre.1391"
-    piral-notifications "^0.11.6-pre.1391"
-    piral-translate "^0.11.6-pre.1391"
+    piral-dashboard "^0.11.7-pre.1435"
+    piral-feeds "^0.11.7-pre.1435"
+    piral-menu "^0.11.7-pre.1435"
+    piral-modals "^0.11.7-pre.1435"
+    piral-notifications "^0.11.7-pre.1435"
+    piral-translate "^0.11.7-pre.1435"
 
-piral-feeds@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-feeds/-/piral-feeds-0.11.6-pre.1391.tgz#dd778b706fd0e08147bca6fd22a005b9ccc29a37"
+piral-feeds@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-feeds/-/piral-feeds-0.11.7-pre.1435.tgz#de900aac7316bf9f7f1cea94c995d390ccba45cb"
 
-piral-menu@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-menu/-/piral-menu-0.11.6-pre.1391.tgz#6e9c27525ac9ecf7fd47403791a8b9b68bf1cd28"
+piral-menu@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-menu/-/piral-menu-0.11.7-pre.1435.tgz#5ce963a11c4fd483f30e9da706be5cd4c8123480"
 
-piral-modals@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-modals/-/piral-modals-0.11.6-pre.1391.tgz#e9806579766f3df49eef08cb4174be43278b92b7"
+piral-modals@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-modals/-/piral-modals-0.11.7-pre.1435.tgz#3000b5fe024908520551d53916eeb8e411e97622"
 
-piral-notifications@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-notifications/-/piral-notifications-0.11.6-pre.1391.tgz#3f10460a08d596ab431ffd81bc8b0b7a2aac5304"
+piral-notifications@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-notifications/-/piral-notifications-0.11.7-pre.1435.tgz#8d7ca58841dfc7a2259958fe24bff1ebc637fb63"
 
-piral-translate@^0.11.6-pre.1391:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral-translate/-/piral-translate-0.11.6-pre.1391.tgz#20b2eeada0ffd74abdab3d083f47a6ba0254e7ae"
+piral-translate@^0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral-translate/-/piral-translate-0.11.7-pre.1435.tgz#490fd6841c515cf394b05ee9b48c8feec15e9d09"
 
-piral@next:
-  version "0.11.6-pre.1391"
-  resolved "https://registry.yarnpkg.com/piral/-/piral-0.11.6-pre.1391.tgz#a00a75b97ad42edbb928634b1946909804461000"
+piral@0.11.7-pre.1435:
+  version "0.11.7-pre.1435"
+  resolved "https://registry.yarnpkg.com/piral/-/piral-0.11.7-pre.1435.tgz#c635b0fdbc67aef63d7742282470da1d1b9e52e6"
   dependencies:
     core-js "3.6.4"
     current-script-polyfill "^1.0.0"
-    piral-core "^0.11.6-pre.1391"
-    piral-ext "^0.11.6-pre.1391"
+    piral-core "^0.11.7-pre.1435"
+    piral-ext "^0.11.7-pre.1435"
     promise-polyfill "^8.1.0"
     react "^16.8.1"
     react-dom "^16.8.1"
@@ -8353,7 +8357,7 @@ tabler-icons@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/tabler-icons/-/tabler-icons-1.8.0.tgz#8a919a6383317c09b2eb8af566c9888cd792e5e1"
 
-tabler-react@^1.30.1:
+tabler-react@^1.30.1, tabler-react@latest:
   version "1.30.1"
   resolved "https://registry.yarnpkg.com/tabler-react/-/tabler-react-1.30.1.tgz#1abe9d96908db75f83f7eedac22d4e928228b718"
   dependencies:
@@ -8587,6 +8591,10 @@ ts-jest@^25.0.0:
 tslib@1.13.0, tslib@^1.10.0, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
+
+tslib@latest:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
 
 tty-browserify@0.0.0:
   version "0.0.0"

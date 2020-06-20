@@ -6,10 +6,12 @@
   ],
   "scripts": {
     "test": "jest",
+    "add:pilet": "pilet new portal --target packages/pilet-${name:-x}",
     "watch:all": "pilet debug 'packages/pilet-*/src/index.tsx'",
     "watch:portal": "piral debug packages/portal/src/index.html",
     "watch:pilet-messages": "pilet debug packages/pilet-messages/src/index.tsx",
     "watch:pilet-status": "pilet debug packages/pilet-status/src/index.tsx",
+    "watch:pilet-x": "pilet debug packages/pilet-x/src/index.tsx",
     "prettier": "prettier --config prettier.config.js --write \"packages/**/*.ts\""
   },
   "devDependencies": {
@@ -17,8 +19,8 @@
     "jest": "^25.0.0",
     "jest-cli": "^25.0.0",
     "lerna": "^3.13.0",
-    "piral-cli": "0.11.6-pre.1393",
-    "piral-cli-parcel": "0.11.6-pre.1393",
+    "piral-cli": "0.11.7-pre.1435",
+    "piral-cli-parcel": "0.11.7-pre.1435",
     "prettier": "^1.19.1",
     "ts-jest": "^25.0.0",
     "typescript": "^3.8.3"
