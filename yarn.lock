@@ -6606,10 +6606,6 @@ path-to-regexp@1.8.0, path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
-path-to-regexp@latest:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.1.0.tgz#0b18f88b7a0ce0bfae6a25990c909ab86f512427"
-
 path-type@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -6678,9 +6674,9 @@ piral-base@^0.11.7-pre.1435:
   dependencies:
     tslib "^1.10.0"
 
-piral-cli-parcel@0.11.7-pre.1435:
-  version "0.11.7-pre.1435"
-  resolved "https://registry.yarnpkg.com/piral-cli-parcel/-/piral-cli-parcel-0.11.7-pre.1435.tgz#781147c5926cb26a16ebf10a31621423a836f6b8"
+piral-cli-parcel@0.11.7-pre.1439:
+  version "0.11.7-pre.1439"
+  resolved "https://registry.yarnpkg.com/piral-cli-parcel/-/piral-cli-parcel-0.11.7-pre.1439.tgz#0072e385292f74cde9dae3698994f37821f1e53e"
   dependencies:
     parcel-bundler "^1.12.4"
     parcel-plugin-at-alias "^0.2.0"
@@ -6688,9 +6684,9 @@ piral-cli-parcel@0.11.7-pre.1435:
     parcel-plugin-externals "^0.5.0"
     parcel-plugin-import-maps "^0.3.1"
 
-piral-cli@0.11.7-pre.1435, piral-cli@^0.11.7-pre.1435:
-  version "0.11.7-pre.1435"
-  resolved "https://registry.yarnpkg.com/piral-cli/-/piral-cli-0.11.7-pre.1435.tgz#6909d7fdbc0afc5b114d4b67b7c8e68ffd9e07f5"
+piral-cli@0.11.7-pre.1439:
+  version "0.11.7-pre.1439"
+  resolved "https://registry.yarnpkg.com/piral-cli/-/piral-cli-0.11.7-pre.1439.tgz#38a177e13edd826d10feed305a52e7f6a654f41c"
   dependencies:
     chalk "^2.4.2"
     dets "^0.6.0"
@@ -8357,7 +8353,7 @@ tabler-icons@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/tabler-icons/-/tabler-icons-1.8.0.tgz#8a919a6383317c09b2eb8af566c9888cd792e5e1"
 
-tabler-react@^1.30.1, tabler-react@latest:
+tabler-react@^1.30.1:
   version "1.30.1"
   resolved "https://registry.yarnpkg.com/tabler-react/-/tabler-react-1.30.1.tgz#1abe9d96908db75f83f7eedac22d4e928228b718"
   dependencies:
@@ -8591,10 +8587,6 @@ ts-jest@^25.0.0:
 tslib@1.13.0, tslib@^1.10.0, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
-
-tslib@latest:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
 
 tty-browserify@0.0.0:
   version "0.0.0"
