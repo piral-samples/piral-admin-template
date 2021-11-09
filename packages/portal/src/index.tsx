@@ -11,7 +11,7 @@ const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/empty';
 const { root } = renderInstance({
   layout,
   errors,
-  extendApi: [
+  plugins: [
     createAuthApi({
       user: {
         id: 'jp',
