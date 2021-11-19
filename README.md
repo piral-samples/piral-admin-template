@@ -50,6 +50,25 @@ name=foo yarn add:pilet
 
 it will create a new directory *packages/pilet-foo*, already scaffolded and integrated. Choose a different run than **foo** for your purposes.
 
+## Publishing the pilets
+
+You can publish all pilets using
+
+```sh
+npx lerna run publish-pilet
+```
+
+This will require two environment variables to be set:
+
+- `FEED_URL` pointing to your feed
+- `API_KEY` the API key to publish pilets to the given feed
+
+Doing it in one sweep:
+
+```sh
+FEED_URL="https://feed.piral.cloud/api/v1/pilet/admin-sample" API_KEY="..." npx lerna run publish-pilet
+```
+
 ## License
 
 Piral and this sample code is released using the MIT license. For more information see the [license file](./LICENSE).

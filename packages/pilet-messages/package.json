@@ -41,7 +41,8 @@
   "scripts": {
     "start": "pilet debug",
     "build": "pilet build",
-    "upgrade": "pilet upgrade"
+    "upgrade": "pilet upgrade",
+    "publish-pilet": "pilet publish --fresh --url $FEED_URL --api-key $API_KEY"
   },
   "main": "dist/index.js",
   "files": [

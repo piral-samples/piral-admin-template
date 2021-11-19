@@ -6,7 +6,7 @@ import { errors } from './errors';
 import { setup } from './root';
 
 // change to your feed URL here (either using feed.piral.cloud or your own service)
-const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/empty';
+const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/admin-sample';
 
 const { root } = renderInstance({
   layout,
