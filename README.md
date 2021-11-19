@@ -10,6 +10,8 @@ The component system of this sample is based on [tabler-react](http://tabler-rea
 
 Provides a great starting point for building modular (Admin) UI interfaces. Different repositories? Monorepo? Hybrid? You decide.
 
+You can visit this demo at [admin-template.samples.piral.cloud/](https://admin-template.samples.piral.cloud/).
+
 ## Getting Started
 
 First, use `lerna` to bootstrap the mono repo. Make sure to have `yarn` (v1) installed for this.

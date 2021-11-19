@@ -10,6 +10,7 @@
     "upgrade:pilet": "pilet upgrade --target packages/pilet-${name:-x}",
     "watch:all": "pilet debug 'packages/pilet-*/src/index.tsx'",
     "watch:portal": "piral debug packages/portal/src/index.html",
+    "build:portal": "piral build packages/portal/src/index.html",
     "watch:pilet": "pilet debug packages/pilet-${name:-x}/src/index.tsx",
     "prettier": "prettier --config prettier.config.js --write \"packages/**/*.ts\""
   },
