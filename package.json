@@ -19,10 +19,11 @@
     "jest": "^25.0.0",
     "jest-cli": "^25.0.0",
     "lerna": "^4.0.0",
-    "piral-cli": "0.14.0",
-    "piral-cli-webpack5": "0.14.0",
+    "piral-cli": "0.14.29",
+    "piral-cli-webpack5": "0.14.29",
     "prettier": "^1.19.1",
     "ts-jest": "^25.0.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "dependencies": {}
 }
