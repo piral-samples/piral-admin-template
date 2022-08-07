@@ -10,6 +10,10 @@ The component system of this sample is based on [tabler-react](http://tabler-rea
 
 Provides a great starting point for building modular (Admin) UI interfaces. Different repositories? Monorepo? Hybrid? You decide.
 
+Feel free to play around with the code using StackBlitz.
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/piral-samples/piral-admin-template)
+
 You can visit this demo at [admin-template.samples.piral.cloud/](https://admin-template.samples.piral.cloud/).
 
 ## Getting Started

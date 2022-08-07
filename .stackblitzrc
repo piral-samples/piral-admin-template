@@ -1,0 +1,7 @@
+{
+  "installDependencies": false,
+  "startCommand": "yarn install && yarn watch:all",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
